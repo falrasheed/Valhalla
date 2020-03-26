@@ -1,0 +1,18 @@
+.main-button {
+text-decoration: none;
+background-color: none;
+color: white;
+padding: 8px 12px;
+border-radius: 4px;
+border: 1px solid white;
+margin-left: 620px;
+margin-bottom: 37px;
+margin-top: 50px;
+}
+
+.main-button:hover {
+background-color: #FBB882;
+transition: 0.5s;
+color: black;
+border: 1px solid black;
+}

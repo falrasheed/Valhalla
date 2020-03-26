@@ -1,0 +1,27 @@
+{
+  "name": "valhalla",
+  "version": "1.0.0",
+  "description": "valhalla company website",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config prod.config.js",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "valhalla"
+  },
+  "author": "me",
+  "license": "ISC",
+  "keywords": [
+    "valhalla",
+    "webpage"
+  ]
+}
