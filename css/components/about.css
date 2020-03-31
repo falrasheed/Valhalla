@@ -14,15 +14,18 @@ h2 {
 display: flex;
 padding-left: 30px;
 margin-top: 60px;
+max-width: 100%;
+justify-content: center;
 }
 
 
 .about p {
-width: auto;
 display:flex;
-position: center;
-width: 100%;
 padding: 30px 30px 30px;
+max-width: 100%;
+min-width: 390px;
+margin-left: 5%;
+margin-right: 5%;
 }
 
 @media screen and (min-width: 390px) {
