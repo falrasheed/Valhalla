@@ -1,16 +1,39 @@
-.about p {
-font-size: 14px;
-line-height: ;
-letter-spacing:
+.about {
+color: white;
+font-family: Andale Mono;
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+width: 100%;
+height: auto;
+margin: 0 auto;
+display:flex;
 }
 
-.about h1{
-  font-size: 30px;
-}
-
-/*.hero-logo {
+h2 {
+display: flex;
 padding-left: 30px;
-width:10px;
-height:10px;
-}*/
+margin-top: 60px;
+}
+
+
+.about p {
+width: auto;
+display:flex;
+position: center;
+width: 100%;
+padding: 30px 30px 30px;
+}
+
+@media screen and (min-width: 390px) {
+  .about {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    font-size: 15px;
+  }
+}
 

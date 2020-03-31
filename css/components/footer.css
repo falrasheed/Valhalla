@@ -1,5 +1,5 @@
 .footer {
-  background: #F4F4F4;
+  background: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,23 +9,26 @@
 }
 .footer-links {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .footer-links a {
-  color: black;
-  opacity: 0.15;
+  color: #414141;
+  opacity: 1;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 60px;
   padding: 0px 10px;
-  justify-content: center;
 }
 .footer-links a:hover {
   opacity: 1;
+  color:#FBB882;
 }
 .footer .fa-heart {
   color: #D23333;
 }
 
-.footer-copyright{
+/**.footer-copyright{
   font-family: Andale Mono;
+  color: #414141;
+  font-size: 18px;
 }

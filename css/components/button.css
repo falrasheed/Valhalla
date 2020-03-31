@@ -8,11 +8,14 @@ border: 1px solid white;
 margin-left: 620px;
 margin-bottom: 37px;
 margin-top: 50px;
+font-size: 20px;
 }
 
 .main-button:hover {
-background-color: #FBB882;
+background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+background-size: cover;
 transition: 0.5s;
-color: black;
+color: white;
 border: 1px solid black;
 }
+
