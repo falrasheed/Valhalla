@@ -3,7 +3,11 @@
         Album Cover Slider
 --------------------------------*/
 //start added by Chase
+
+// this is what I changed
 var a = document.getElementsByTagName("carousel-link");
+// this is what I changed
+
 var cfImg = document.getElementsByClassName("coverflow2__image")
 
 var scaleI = 0;
