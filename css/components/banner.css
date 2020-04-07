@@ -19,6 +19,7 @@ background-attachment: fixed;
 font-family: Andale Mono;
 height: 0%;
 width: 100%;
+margin-top: -50px;
 }
 
 .contact {
@@ -33,7 +34,7 @@ width: 100%;
 }
 
 .banner h1 {
-background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+background-image: url(https://media.giphy.com/media/323XvYIOhL2DzB5yK0/giphy.gif);
 background-size: cover;
 color: transparent;
 -moz-background-clip: text;
@@ -42,6 +43,8 @@ font-size: 90px;
 display: flex;
 margin: 0 auto;
 justify-content: center;
+padding-left: 10%;
+padding-right: 10%;
 }
 
 .banner h2 {
@@ -61,6 +64,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 width: 100%;
+padding-top: 42px;
 }
 
 .responsive {
