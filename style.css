@@ -4,17 +4,17 @@
 
 /*---Components Design ----*/
 
-@import url("components/avatar.css");
-@import url("components/container.css");
-@import url("components/button.css");
-@import url("components/footer.css");
-@import url("components/banner.css");
-@import url("components/about.css");
-@import url("components/navbar.css");
-@import url("components/form.css");
-@import url("components/carousel.css");
-@import url("components/carousel2.css");
-@import url("components/about.css");
+@import url("stylesheets/avatar.css");
+@import url("stylesheets/container.css");
+@import url("stylesheets/button.css");
+@import url("stylesheets/footer.css");
+@import url("stylesheets/banner.css");
+@import url("stylesheets/about.css");
+@import url("stylesheets/navbar.css");
+@import url("stylesheets/form.css");
+@import url("stylesheets/carousel.css");
+@import url("stylesheets/carousel2.css");
+@import url("stylesheets/about.css");
 
 
 /*---TODO:Import New Components---*/
