@@ -52,6 +52,7 @@ body {
     left: 78%;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+    margin-left: 34px;
   }
 }
 /*I ADDED THIS CODE TO MAKE THE ALBUM COVERS SMALLER ON MOBILE*/
