@@ -27,6 +27,11 @@
   <meta http-quiv ="X-UA-Compatible" content="ie-edge">
   <!--   your style.css is in a different folder, so you need to type "../" to exit your current folder, then enter the file path - Zach -->
   <link rel="stylesheet" href="style.css" type= "text/css">
+  <!-- NAVBAR </!-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
 
   <!--ICON-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
@@ -34,37 +39,26 @@
 
 <body>
 
-    <!-- <div class="container">
-      <img src="images/tree_logo.png" alt="logo" class ="toplogo">
-
-      CONTAINER FOR VALHALLA LOGO ON LEFT SIDE // CHECK HOW TO RESIZE
-    </div> -->
-    <!--<nav>
-        <ul class="nav-links">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Gallery</a>
-            </li>
-            <li>
-                <a href="#">Artists</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transform" style="background-color: transparent; border-color: transparent;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" id="burger" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="https://www.facebook.com/valhallaenbcn"> <img src="https://ik.imagekit.io/pqgd3fkqq/Valhala_Navbar_Logo_Ay87OKsmNNc.png" class="navbar-brand"></a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-    </nav>-->
-
-
+      </div>
+    </div>
+  </nav>
 
     <div class="banner" style="background-image: url(https://ik.imagekit.io/pqgd3fkqq/banner_yUK_JdOMGEO.jpg);">
       <div class="container">
@@ -164,5 +158,8 @@
  -->
       <script src="src/carousel.js"></script>
       <script src="src/carousel2.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="src/navbar.js"></script>
 </body>
 </html>
