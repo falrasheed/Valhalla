@@ -34,7 +34,7 @@ body {
 
 
 /*I ADDED THIS CODE TO MAKE THE ALBUM COVERS SMALLER ON MOBILE*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .coverflow__image {
     -webkit-user-select: none;
     -moz-user-select: none;
