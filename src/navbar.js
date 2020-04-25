@@ -7,7 +7,7 @@ $(document).ready(function () {
     $(this).toggleClass("active");
     if (!pagePositionScrolled()) {
       $(".navbar-fixed-top").toggleClass("navbar-transform");
-      toggleColour("black");
+      toggleColour("white");
     }
     window.setTimeout(toggleBurger, 400);
   });
@@ -21,7 +21,7 @@ function toggleNavCollapse() {
   if (pagePositionScrolled() &! $("#burger").hasClass("active")) {
     $(".navbar-fixed-top").removeClass("navbar-transform");
     toggleColour(returnColour(pagePositionScrolled()));
-    $(".navbar-default").css({"background-color": "white", "border-color": "#eeeeff"});
+    $(".navbar-default").css({"background-color": " #101010", "border-color": "#101010"});
   } else if (!$("#burger").hasClass("active")){
     $(".navbar-fixed-top").addClass("navbar-transform");
     toggleColour(returnColour(pagePositionScrolled()));
@@ -30,7 +30,7 @@ function toggleNavCollapse() {
 }
 
 function returnColour(requirement) {
-  if (requirement) { return "black"} else { return "white"}
+  if (requirement) { return "white"} else { return "white"}
 }
 
 function toggleColour(colour) {
@@ -46,12 +46,12 @@ function toggleBurger() {
     $(".navbar-toggle.active .icon-bar:nth-of-type(1)").css({"background-color": "black", "top": "6px", "transform": "rotate(45deg)"});
     $(".navbar-toggle.active .icon-bar:nth-of-type(2)").css({"background-color": "transparent"});
     $(".navbar-toggle.active .icon-bar:nth-of-type(3)").css({"background-color": "black", "top": "-6px", "transform": "rotate(-45deg)"});
-    $(".navbar-default").css({"background-color": "white", "border-color": "#eeeeff"});
+    $(".navbar-default").css({"background-color": "black", "border-color": "#eeeeff"});
   } else {
     $(".navbar-toggle .icon-bar:nth-of-type(1)").css({"background-color": colour, "top": "", "transform": ""});
     $(".navbar-toggle .icon-bar:nth-of-type(2)").css({"background-color": colour});
     $(".navbar-toggle .icon-bar:nth-of-type(3)").css({"background-color": colour, "top": "", "transform": ""});
-    $(".navbar-default").css({"background-color": "transparent", "border-color": "transparent"});
+    $(".navbar-default").css({"background-color": "black", "border-color": "transparent"});
     toggleColour(returnColour(pagePositionScrolled()));
   }
 }

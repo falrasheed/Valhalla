@@ -2,9 +2,9 @@
 
 .navbar {
   background: white;
-  transition: background .5s ease-in-out,padding .5s ease-in-out;
-  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background 1s ease-in-out,padding 1s ease-in-out;
+  -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out,padding 1s ease-in-out;
 }
 
 .navbar-default .navbar-nav li:hover {
