@@ -26,6 +26,16 @@ padding-bottom: 33px;
 padding-top: 12vh;
 }
 
+.about-page h3 {
+font-size: 30px;
+color: white;
+padding: 0px 100px;
+width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 42px;
+}
+
 
 .about-page p {
 margin: 0;
