@@ -2,29 +2,32 @@
   box-sizing: border-box;
 }
 
-.about {
+.about-page {
 color: #F7F8F6;
 font-family: Andale Mono;
 background-size: cover;
 background-position: center;
 background-repeat:no-repeat;
 width: 100%;
-height: auto;
+height: -webkit-fill-available;
 margin: 0 auto;
 display:flex;
-padding-bottom: 88px;
+padding-bottom: 1vh;
+padding-top: 1vh;
+overflow: auto ;
 }
 
-h2 {
+.about-page h2 {
 display: flex;
 margin-top: 60px;
 max-width: 100%;
 justify-content: center;
 padding-bottom: 33px;
+padding-top: 12vh;
 }
 
 
-p {
+.about-page p {
 margin: 0;
 display:flex;
 width: 100%;
@@ -42,5 +45,36 @@ padding-right: 16px;
   .about {
     font-size: 15px;
   }
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  color: rgba(0,0,0,0.3);
+  margin-top: -5px;
+  position: relative;
+  z-index: 999999;
+  background-color: black;
+}
+.about-footer-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.about-footer-links a {
+  color: #414141;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 60px;
+  padding: 0px 10px;
+}
+.about-footer-links a:hover {
+  opacity: 1;
+  color:#FBB882;
+}
+.footer .fa-heart {
+  color: #D23333;
 }
 

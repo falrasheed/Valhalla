@@ -91,4 +91,50 @@ padding-top: 42px;
  display:flex;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.about {
+color: #F7F8F6;
+font-family: Andale Mono;
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+width: 100%;
+height: auto;
+margin: 0 auto;
+display:flex;
+padding-bottom: 88px;
+}
+
+h2 {
+display: flex;
+margin-top: 60px;
+max-width: 100%;
+justify-content: center;
+padding-bottom: 33px;
+}
+
+
+p {
+margin: 0;
+display:flex;
+width: 100%;
+padding-left: 26px;
+padding-right: 16px;
+}
+
+@media screen and (min-width: 390px) {
+  .about {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    font-size: 15px;
+  }
+}
+
 
