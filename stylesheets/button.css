@@ -1,5 +1,5 @@
 .main-button {
-text-decoration: none;
+/*text-decoration: none;
 background-color: none;
 color: white;
 padding: 8px 12px;
@@ -8,7 +8,21 @@ border: 1px solid white;
 margin-left: 620px;
 margin-bottom: 37px;
 margin-top: 50px;
-font-size: 20px;
+font-size: 20px;*/
+ font-family: Andale Mono;
+  background:#FBB882;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:20px;
+  padding: 20px 20px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  height:50px;
+  margin-left:36%;
+
 }
 
 .main-button:hover {
