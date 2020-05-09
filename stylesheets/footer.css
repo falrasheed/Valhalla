@@ -28,6 +28,16 @@
   color: #D23333;
 }
 
+#footer-logos {
+justify-content: center;
+opacity: 1;
+background: transparent;
+height: 36px;
+margin-top: 25px;
+display:flex;
+}
+
+
 /**.footer-copyright{
   font-family: Andale Mono;
   color: #414141;
