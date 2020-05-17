@@ -1,13 +1,6 @@
 body { background:rgb(30,30,40); }
 form { max-width:420px; margin:50px auto; padding-left: 5%; padding-right: 5% }
 
-.container h3{
-  font-size: 30px;
-  max-width:420px; margin:50px auto;
-  padding-left: 5%;
-  padding-right: 5%
-}
-
 .feedback-input {
   color:white;
   font-family: Andale Mono;

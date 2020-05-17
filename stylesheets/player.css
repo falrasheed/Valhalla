@@ -1,4 +1,8 @@
-.main-button {
+.player-links {
+margin-bottom: 1vh;
+}
+
+.player-button {
 /*text-decoration: none;
 background-color: none;
 color: white;
@@ -12,24 +16,24 @@ font-size: 20px;*/
  font-family: Andale Mono;
   background: transparent;
   border-radius:5px;
-  border:0;
   cursor:pointer;
-  color:white;
+  color:#414141;
   font-size:15px;
-  padding: 5px 5px;
+  padding: 5px 3px;
   transition: all 0.3s;
   margin-top:10px;
   font-weight:700;
-  height:20px;
-  border: 1px solid white;
+  border: 2px solid white;
+  border-color: #414141;
+  display: -webkit-inline-block;
+  text-decoration: none;
 }
 
-.main-button:hover {
-background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-background-size: cover;
+.player-button:hover {
+/*background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+background-size: cover;*/
 transition: 0.5s;
 color: white;
 border: 1px solid black;
 text-decoration: none;
 }
-
