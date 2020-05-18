@@ -2,11 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 100%;
   color: rgba(0,0,0,0.3);
-  margin-top: 0px;
+  margin-top: auto;
   position: relative;
   z-index: 999999;
+  flex-direction: column;
+
 }
 .footer-links {
   display: flex;
@@ -37,9 +39,23 @@ margin-top: 25px;
 display:flex;
 }
 
+#copyright-list {
+justify-content: center;
+align-items: center;
+padding-left: 0;
+}
 
-/**.footer-copyright{
+#footer-copright{
   font-family: Andale Mono;
   color: #414141;
-  font-size: 18px;
-}*/
+  font-size: 8px;
+  display: flex;
+  flex-direction:row;
+  display: inline;
+  font-size: 12px;
+  overflow: auto;
+}
+#footer-copyright a:hover {
+  opacity: 1;
+  color:#FBB882;
+}
