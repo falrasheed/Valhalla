@@ -19,6 +19,15 @@
     width: 16%;
 }
 
+.bubble-right-2-main{
+    position: absolute;
+    z-index: 100;
+    margin-top: -8%;
+    margin-left: 84%;
+    height: 24%;
+    width: 16%;
+}
+
 .bubble-left-2-main {
     position: absolute;
     width: 25%;
@@ -32,8 +41,48 @@
     height: 40%;
     margin-left:-12%;
 }
+.bubble-top-right-about {
+  position: absolute;
+  width:25%;
+  padding-left:20%;
+  margin-top: -6px;
+  width: 61%;
+  padding-left: 20%;
+  margin-left: 50%;
+  min-width: 50%;
+  z-index: 100;
+}
+.bubble-top-left-gallery {
+    position: absolute;
+    width: 25%;
+    padding-left: 20%;
+    margin-top: -18.5%;
+    margin-left: 0%;
+    width: 29%;
+    height: 66%;
+    padding-left: 0%;
+    /* margin-left: 50%; */
+    /* min-width: 50%; */
+    z-index: 100;
+    overflow: hidden;
+}
 
-@media screen and (max-width: 600px) {
+.bubble-top-left-artists {
+    position: absolute;
+    width: 25%;
+    padding-left: 20%;
+    margin-top: -7.5%;
+    margin-left: 79%;
+    width: 23%;
+    height: 54%;
+    padding-left: 0%;
+    /* margin-left: 50%; */
+    /* min-width: 50%; */
+    z-index: 100;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 414px) {
   .bubble-left-main {
     position: absolute;
     width: 25%;
@@ -67,5 +116,38 @@
     z-index: 100;
     height: 29%;
     margin-left: -17%;
+}
+.bubble-right-2-main{
+    position: absolute;
+    z-index: 100;
+    margin-top: -35%;
+    margin-left: 62%;
+    height: 19%;
+    width: 38%;
+}
+.bubble-top-right-about {
+  position: absolute;
+  width:25%;
+  padding-left:20%;
+  margin-top: -6px;
+  width: 70%;
+  padding-left: 0%;
+  margin-left: 52%;
+  min-width: 50%;
+  z-index: 100;
+ }
+.bubble-top-left-gallery {
+    position: absolute;
+    width: 25%;
+    padding-left: 20%;
+    margin-top: -13.5%;
+    margin-left: -10%;
+    width: 43%;
+    height: 26%;
+    padding-left: 0%;
+    /* margin-left: 50%; */
+    /* min-width: 50%; */
+    z-index: 100;
+    overflow: hidden;
 }
 }
