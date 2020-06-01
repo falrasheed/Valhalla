@@ -3,7 +3,7 @@ form { max-width:420px; margin:50px auto; padding-left: 5%; padding-right: 5% }
 
 .feedback-input {
   color:white;
-  font-family: Andale Mono;
+  font-family: century-gothic, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
@@ -27,7 +27,7 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: Andale Mono;
+  font-family: century-gothic, sans-serif;
   width: 100%;
   background:#FBB882;
   border-radius:5px;

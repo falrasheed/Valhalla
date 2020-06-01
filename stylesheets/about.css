@@ -3,7 +3,7 @@
 }
 .about-page {
 color: #F7F8F6;
-font-family: Andale Mono;
+font-family: century-gothic, sans-serif;
 background-size: cover;
 background-position: center;
 background-repeat:no-repeat;
@@ -26,7 +26,7 @@ display: flex;
     position: relative;
     z-index: 500;
     flex-direction: row;
-    margin-top:20%;
+    margin-top:10%;
 }
 
 .about-page h3 {
@@ -93,7 +93,7 @@ flex-direction: column;
 }
 .about-footer-links a:hover {
   opacity: 1;
-  color:#FBB882;
+  color:#A89A90;
 }
 .footer .fa-heart {
   color: #D23333;

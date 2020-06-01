@@ -1,7 +1,7 @@
 /* NAVBAR */
 
 .navbar {
-  background: white;
+  background: black;
   transition: background 1s ease-in-out,padding 1s ease-in-out;
   -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
   -moz-transition: background 1s ease-in-out,padding 1s ease-in-out;

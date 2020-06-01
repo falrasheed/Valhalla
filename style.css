@@ -4,11 +4,10 @@
 
 /*---Components Design ----*/
 
-@import url("stylesheets/avatar.css");
 @import url("stylesheets/container.css");
 @import url("stylesheets/button.css");
 @import url("stylesheets/footer.css");
-@import url("stylesheets/banner.css");
+@import url("stylesheets/main.css");
 @import url("stylesheets/about.css");
 @import url("stylesheets/navbar.css");
 @import url("stylesheets/form.css");
