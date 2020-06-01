@@ -20,13 +20,12 @@ z-index: 500;
 
 .about-page h2 {
 display: flex;
-    /* margin-top: 60px; */
-    justify-content: center;
-    /* padding-top: 12vh; */
-    position: relative;
-    z-index: 500;
-    flex-direction: row;
-    margin-top:10%;
+justify-content: center;
+position: relative;
+z-index: 500;
+flex-direction: row;
+margin-top:10%;
+font-family: century-gothic, sans-serif;
 }
 
 .about-page h3 {

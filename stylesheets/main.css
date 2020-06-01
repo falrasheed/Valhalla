@@ -13,7 +13,7 @@ background-position: center center;
 background-repeat:no-repeat;
 background-attachment: fixed;
 padding-top: 80px;
-font-family: entury-gothic, sans-serif;
+font-family: century-gothic, sans-serif;
 height: 100vh;
 width: 100%;
 z-index:500;
@@ -35,7 +35,7 @@ color: white;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: entury-gothic, sans-serif;
+    font-family: century-gothic, sans-serif;
     height: 100%;
     width: 100%;
     z-index: 500;
@@ -49,15 +49,16 @@ color: white;
     height: auto;
     justify-content: center;
     padding-bottom: 3%;
+font-family: century-gothic, sans-serif;
 }
 
 #down-btn {
  position: absolute;
  top:89vh;
- padding: 20px;
  font-size: 2.5em;
  display: flex;
- margin-left: 36%;
+ margin-left: 50%;
+ margin-right:50%;
 }
 
 #down-btn :hover {
@@ -72,7 +73,7 @@ background-size: cover;
 background-position: center center;
 background-repeat:no-repeat;
 background-attachment: fixed;
-font-family: entury-gothic, sans-serif;
+font-family: century-gothic, sans-serif;
 height: 0%;
 width: 100%;
 }
@@ -84,7 +85,7 @@ background-position: center center;
 background-repeat:no-repeat;
 background-attachment: fixed;
 padding: 1px 0px;
-font-family: entury-gothic, sans-serif;
+font-family: century-gothic, sans-serif;
 width: 100%;
 }
 

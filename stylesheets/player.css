@@ -2,6 +2,14 @@
 margin-bottom: 1vh;
 }
 
+.player-container {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 1vh;
+    margin-top: 17vh;
+}
 .player-button {
 /*text-decoration: none;
 background-color: none;
