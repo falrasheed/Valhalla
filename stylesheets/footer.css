@@ -13,7 +13,7 @@ body{
   align-items: center;
   justify-content: space-between;
   color:rgb(56, 53, 51);
-  z-index: 999999;
+  z-index: 991;
   flex-direction: column;
   position: absolute;
   bottom: 0;
