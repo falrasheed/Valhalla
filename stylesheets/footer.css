@@ -78,6 +78,14 @@ padding-left: 0;
   padding: 0px 10px;
 }
 
+.about-footer-links a {
+  color: #414141;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0px 10px;
+}
+
 #footer-copright{
   font-family: century-gothic, sans-serif;
   color: #414141;
